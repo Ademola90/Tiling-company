@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import { Typography } from '@mui/material';
 import './App.css';
+import {NavBar, Home, Contact, Project, Service, About} from './components'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    <Typography className='w-full h-screen'>
+        <NavBar/>
+        <Routes>
+          <Route path="/" exact element={<Home/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/service" element={<Service/>} />
+          <Route path="/project" element={<Project/>} />
+          <Route path="/contact" element={<Contact/>} />
+        </Routes>
+        </Typography>
+    </BrowserRouter>
+  )
 }
 
 export default App;
