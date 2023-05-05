@@ -5,7 +5,6 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 import About from './About';
 import Service from './Service';
 import mosaicHomeP from '../assets/mosaicHomeP.jpg'
-import ClientReview from './ClientReview';
 import Footer from './Footer';
 
 const Home = () => {
@@ -149,7 +148,6 @@ const Home = () => {
 
       </div>
       </div>
-      <ClientReview/>
       <Footer/>      
     </div>
   )

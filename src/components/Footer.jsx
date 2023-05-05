@@ -92,10 +92,11 @@ const Footer = () => {
 
     </div>
     <div className='text-center'>
-        <span className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-facebook"></ion-icon></span>
-        <span className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-twitter"></ion-icon></span>
-        <span className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-instagram"></ion-icon></span>
-        <span className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-pinterest"></ion-icon></span>
+      <a href="https://web.facebook.com/ademola.abdullahi.37" className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="https://twitter.com/Ademola829" className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-twitter"></ion-icon></a>
+      <a href="https://www.instagram.com/ademolaabdullai/" className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="tiktok.com/@hollah90" className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-tiktok"></ion-icon></a>
+        
       </div>
     </div>
   )
