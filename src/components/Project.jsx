@@ -1,9 +1,8 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Project = () => {
-  return (
-    <div>Project</div>
-  )
+  return <Footer/>
 }
 
 export default Project
