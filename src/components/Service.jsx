@@ -1,5 +1,6 @@
 import React from 'react'
 import mosaicHomeP from '../assets/mosaicHomeP.jpg'
+import Footer from './Footer'
 
 
 const Service = () => {
@@ -25,6 +26,7 @@ const Service = () => {
         </div>
       </div>
     </div>
+    <Footer/>
     </div>
   )
 }

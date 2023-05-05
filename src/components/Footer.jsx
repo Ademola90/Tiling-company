@@ -98,6 +98,7 @@ const Footer = () => {
       <a href="tiktok.com/@hollah90" className='px-4 cursor-pointer text-2xl hover:text-blue-500'><ion-icon name="logo-tiktok"></ion-icon></a>
         
       </div>
+      <div className='text-white text-center pt-10 pb-20'>Copyright © 2023 Nigeria Tiling Company</div>
     </div>
   )
 }

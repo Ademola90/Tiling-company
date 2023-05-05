@@ -1,5 +1,6 @@
 import React from 'react'
 import homePage2 from '../assets/homePage2.jpg'
+import Footer from './Footer'
 
 const About = () => {
   return (
@@ -26,6 +27,7 @@ const About = () => {
         </div>
       </div>
       </div>
+      <Footer/>
     </div>
   )
 }
